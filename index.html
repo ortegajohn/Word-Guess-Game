@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="background" id='js_background_id'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WordGuessGame</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <h1 class=""> WordGuessGame  </h1>
+   
+    <header class="A1">
+            Press any key to get started!
+    </header>
+
+
+    <div class="container">
+            
+        <div class="win_count_box">
+                <!-- win_count_box -->
+                <p> <span id="display_win">Wins: </span></p>
+
+        </div>   
+        <div class="loss_count_box">
+               <!-- loss_count_box -->
+               <p> <span id="display_loss">Losses: </span></p>
+        </div>   
+        <div class="current_word_box">
+
+                <!-- current_word_box -->
+        </div>   
+        <div class="guess_word_box fire">
+
+                <!-- guess_word_box -->
+        
+                <p> <span id="guess_letters"></span></p>
+                <p> <span id="Answer"></span></p>
+                
+        </div> 
+        <div class="guesses_remaining_box">
+
+                <!-- guesses_remaining_box -->
+
+                 <p> <span id="guess_remaining">Guess Remaining: 9 </span></p>
+
+        </div>
+        <div class="letters_guessed_box">
+
+                Letters guessed: 
+        <!-- </br> -->
+
+                <span id="user-text"><strong>...Nothing.</strong></span> 
+
+
+        </div>        
+        
+
+    </div>
+    
+    <div class="imagebox">
+            <div class="images center ">
+                <p class="fire">
+                        <img class="guessimage fire" src="" id="displayimage" alt="" />
+                </p>
+            </div>
+    </div>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</html>
