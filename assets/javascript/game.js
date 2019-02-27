@@ -335,8 +335,8 @@ var LeagueArray = [
 var randombackground = Math.floor(Math.random() * background.length);
 var set_background_random = background[randombackground].image;
 
-//var randomNumber = Math.floor(Math.random() * LeagueArray.length -1);
-var randomNumber = LeagueArray.length -1;
+var randomNumber = Math.floor(Math.random() * LeagueArray.length -1);
+//var randomNumber = LeagueArray.length -1;
 //var randomNumber = 0;
 var champion = LeagueArray[randomNumber].word;
 var championimage = LeagueArray[randomNumber].image;
